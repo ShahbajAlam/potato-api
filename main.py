@@ -17,7 +17,7 @@ app.add_middleware(
 )
 
 # For potato
-MODEL = tf.keras.models.load_model("../Potato/models/potato.keras")
+MODEL = tf.keras.models.load_model("./potato.keras")
 print(MODEL)
 
 # For potato
